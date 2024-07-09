@@ -13,6 +13,9 @@
 .dark1 {
   color: #0d1321;
 }
+.dark2 {
+  color: #0d1321;
+}
 .extra-m1 {
   margin: 50px 150px;
 }
@@ -22,6 +25,33 @@
 .text-center {
   text-align: center;
 }
+.text-justify {
+  text-align: justify;
+}
+.section-title {
+  font-size: 32px;
+  font-weight: 800;
+}
+.secondary-bg {
+  background-color: #fafafb;
+}
+.primary-description {
+  font-size: 16px;
+  line-height: 26px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+.mt-48 {
+  margin-bottom: 48px;
+}
+
 /* Nav Styles */
 nav {
   display: flex;
@@ -58,21 +88,78 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 26px 221px 45px;
+  margin-bottom: 37px;
 }
 
 .banner-image {
   width: 240.28px;
   height: 240px;
-  margin-bottom: 32px;
 }
 .banner-title {
   font-size: 48px;
   font-weight: 800;
   line-height: 68px;
-  margin-bottom: 24px;
 }
 .banner-description {
   font-size: 16px;
   line-height: 26px;
-  margin-bottom: 32px;
+  margin: 0 73px 32px;
+}
+/* About Styles */
+.about-container {
+  border-radius: 16px;
+  padding: 80px 97px;
+  margin: 37px 152px 45px 148px;
+}
+.about {
+  display: flex;
+  flex-flow: column;
+}
+.about-data {
+  margin: 0 47px 48px;
+}
+.about-items {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+.about-item {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  text-align: left;
+  padding: 48px;
+  background-color: white;
+  border-radius: 16px;
+  border: none;
+}
+.left {
+  margin: 10.5px 25px 10.5px 0;
+}
+.right2 {
+  margin: 10.5px 101px 10.5px 32px;
+}
+.item-title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+}
+.mr-87 {
+  margin-right: 87px;
+}
+.item-description {
+  font-weight: 600;
+}
+.item-button {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 12px;
+  background-color: white;
+}
+
+/* Inspiration Styles */
+.inspiration-container {
+  border-radius: 16px;
+  padding: 80px 97px;
+  margin: 45px 152px 151px 148px;
 }
