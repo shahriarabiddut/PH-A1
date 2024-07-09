@@ -19,12 +19,15 @@
 .extra-m2 {
   margin: 38px 150px;
 }
+.text-center {
+  text-align: center;
+}
 /* Nav Styles */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* margin: 50px 150px; */
+  flex-wrap: wrap;
 }
 .nav-title {
   font-weight: 800;
@@ -36,4 +39,40 @@ nav {
   font-size: 20px;
   font-weight: 600;
   border-radius: 8px;
+}
+.btn-dark {
+  background-color: #0d1321;
+  padding: 21px 24px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  border-radius: 8px;
+}
+/* Banner Styles */
+.banner {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 26px 221px 45px;
+}
+
+.banner-image {
+  width: 240.28px;
+  height: 240px;
+  margin-bottom: 32px;
+}
+.banner-title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  margin-bottom: 24px;
+}
+.banner-description {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 32px;
 }
