@@ -70,6 +70,11 @@ nav {
   font-weight: 600;
   border-radius: 8px;
 }
+.btn-white a {
+  text-decoration: none;
+  color: #0d1321;
+  cursor: pointer;
+}
 .btn-dark {
   background-color: #0d1321;
   padding: 21px 24px;
@@ -77,6 +82,11 @@ nav {
   font-weight: 600;
   color: white;
   border-radius: 8px;
+}
+.btn-dark a {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
 }
 /* Banner Styles */
 .banner {
@@ -156,10 +166,32 @@ nav {
   padding: 20px 12px;
   background-color: white;
 }
-
+.item-button a {
+  text-decoration: none;
+  color: #0d1321;
+  cursor: pointer;
+}
 /* Inspiration Styles */
 .inspiration-container {
   border-radius: 16px;
   padding: 80px 97px;
   margin: 45px 152px 151px 148px;
+}
+.inspiration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.inspiration-data {
+  margin: 0 144px 48px;
+}
+.inspiration-video {
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  padding: 32px;
+}
+
+.inspiration-video iframe {
+  border-radius: 16px;
 }
