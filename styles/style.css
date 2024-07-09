@@ -51,7 +51,18 @@
 .mt-48 {
   margin-bottom: 48px;
 }
-
+.mr-24 {
+  margin-right: 24px;
+}
+.bg-1 {
+  background-color: #fff6f4;
+}
+.bg-2 {
+  background-color: #f2f6fe;
+}
+.bg-3 {
+  background-color: #fffdf2;
+}
 /* Nav Styles */
 nav {
   display: flex;
@@ -132,6 +143,7 @@ nav {
   display: flex;
   flex-flow: column;
   justify-content: space-around;
+  gap: 32px;
 }
 .about-item {
   display: flex;
@@ -163,7 +175,7 @@ nav {
 .item-button {
   font-weight: 600;
   font-size: 20px;
-  padding: 20px 12px;
+  padding: 12px 20px;
   background-color: white;
 }
 .item-button a {
@@ -175,7 +187,7 @@ nav {
 .inspiration-container {
   border-radius: 16px;
   padding: 80px 97px;
-  margin: 45px 152px 151px 148px;
+  margin: 45px 152px 76px 148px;
 }
 .inspiration {
   display: flex;
@@ -194,4 +206,65 @@ nav {
 
 .inspiration-video iframe {
   border-radius: 16px;
+}
+
+/* Target Styles */
+.target-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  border-radius: 16px;
+  padding: 80px 97px;
+  margin: 75px 150px 49px;
+}
+.target-curr {
+  margin-bottom: 56px;
+}
+.target-top {
+  margin: 0 97px 48px;
+  padding: 0 47px;
+}
+.target-skill {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  text-align: left;
+}
+.card {
+  padding: 40px;
+  border-radius: 16px;
+}
+.card-title {
+  margin-bottom: 8px;
+  font-size: 24px;
+  line-height: 36px;
+}
+.target-skill a {
+  color: #0d1321;
+  font-weight: bold;
+}
+
+.target-next {
+  margin-top: 56px;
+}
+.target-next-skill {
+  display: flex;
+  gap: 24px;
+  text-align: left;
+  flex-flow: column;
+}
+.card-next {
+  padding: 40px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  display: flex;
+  gap: 24px;
+}
+.card-next img {
+  margin: 15.5px 0;
+}
+.target-next-skill a {
+  color: #0d1321;
+  font-weight: bold;
 }
