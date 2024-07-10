@@ -4,6 +4,9 @@
   padding: 0;
   font-family: "Azeret Mono", monospace;
 }
+html {
+  scroll-behavior: smooth;
+}
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
