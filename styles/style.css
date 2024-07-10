@@ -30,6 +30,7 @@
 }
 .section-title {
   font-size: 32px;
+  line-height: 36px;
   font-weight: 800;
 }
 .secondary-bg {
@@ -135,6 +136,7 @@ nav {
 .about {
   display: flex;
   flex-flow: column;
+  max-width: 1140px;
 }
 .about-data {
   margin: 0 47px 48px;
@@ -186,14 +188,12 @@ nav {
 /* Inspiration Styles */
 .inspiration-container {
   border-radius: 16px;
-  padding: 80px 97px;
   margin: 45px 152px 76px 148px;
-}
-.inspiration {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column;
+  max-width: 1140px;
 }
 .inspiration-data {
   margin: 0 144px 48px;
@@ -211,11 +211,8 @@ nav {
 /* Target Styles */
 .target-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-flow: column;
   border-radius: 16px;
-  padding: 80px 97px;
   margin: 75px 150px 49px;
 }
 .target-curr {
@@ -267,4 +264,55 @@ nav {
 .target-next-skill a {
   color: #0d1321;
   font-weight: bold;
+}
+/* Support Styles */
+.support-container {
+  display: flex;
+  border-radius: 16px;
+  max-width: 1140px;
+  padding: 64px 48px;
+  background: url(../assets/handshake.jpg) no-repeat center center / cover,
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+  background-blend-mode: overlay;
+  margin: 0px 150px 80px;
+  color: white;
+}
+.support {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 157px;
+}
+.support form {
+  max-height: 57px;
+}
+.prl-62 {
+  padding-left: 62px;
+  padding-right: 62px;
+}
+.support input[type="text"] {
+  width: 548px;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid #f7f7f7;
+  font-size: 16px;
+  padding: 19px 20px;
+  margin-right: 16px;
+  display: inline;
+}
+.support button {
+  width: 120px;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid #f7f7f7;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 20px;
+  margin-right: 16px;
+  display: inline;
+}
+
+/* Footer Styles */
+footer {
+  padding: 32px 150px;
 }
