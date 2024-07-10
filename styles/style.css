@@ -65,6 +65,9 @@
   background-color: #fffdf2;
 }
 /* Nav Styles */
+header {
+  max-width: 1440px;
+}
 nav {
   display: flex;
   align-items: center;
@@ -129,14 +132,15 @@ nav {
 }
 /* About Styles */
 .about-container {
-  border-radius: 16px;
-  padding: 80px 97px;
-  margin: 37px 152px 45px 148px;
+  padding: 37px 152px 45px 148px;
+  max-width: 1440px;
 }
 .about {
   display: flex;
   flex-flow: column;
   max-width: 1140px;
+  border-radius: 16px;
+  padding: 80px 97px;
 }
 .about-data {
   margin: 0 47px 48px;
@@ -214,6 +218,7 @@ nav {
   flex-flow: column;
   border-radius: 16px;
   margin: 75px 150px 49px;
+  max-width: 1140px;
 }
 .target-curr {
   margin-bottom: 56px;
@@ -285,6 +290,7 @@ nav {
   flex-flow: column;
   align-items: center;
   margin: 0 157px;
+  max-width: 1140px;
 }
 .form1 {
   max-height: 57px;
@@ -322,6 +328,7 @@ footer {
   align-items: center;
   padding: 32px 150px;
   background-color: #f8f8f8;
+  max-width: 1140px;
 }
 footer h4 {
   font-size: 20px;
