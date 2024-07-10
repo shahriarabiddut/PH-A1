@@ -268,6 +268,9 @@ nav {
 /* Support Styles */
 .support-container {
   display: flex;
+  gap: 24px;
+  flex-flow: column;
+  align-items: center;
   border-radius: 16px;
   max-width: 1140px;
   padding: 64px 48px;
@@ -277,20 +280,20 @@ nav {
   margin: 0px 150px 80px;
   color: white;
 }
-.support {
+.support-top {
   display: flex;
   flex-flow: column;
   align-items: center;
   margin: 0 157px;
 }
-.support form {
+.form1 {
   max-height: 57px;
 }
 .prl-62 {
   padding-left: 62px;
   padding-right: 62px;
 }
-.support input[type="text"] {
+.support-bottom input[type="text"] {
   width: 548px;
   border-radius: 8px;
   background-color: white;
@@ -300,7 +303,7 @@ nav {
   margin-right: 16px;
   display: inline;
 }
-.support button {
+.support-bottom button {
   width: 120px;
   border-radius: 8px;
   background-color: white;
