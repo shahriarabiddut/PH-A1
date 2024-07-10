@@ -237,6 +237,7 @@ nav {
   text-align: left;
 }
 .card {
+  width: 364px;
   padding: 40px;
   border-radius: 16px;
 }
